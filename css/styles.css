@@ -1,0 +1,48 @@
+section {
+  padding-top: 25px;
+  /* Penyesuaian margin atas */
+  background-image: url(../img/bg2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-bottom: 70px;
+}
+
+.card {
+  background-color: #1f0443;
+  filter: blur(0.5px);
+  /* Blur yang lebih halus */
+}
+
+.carousel-inner .carousel-item .row .col {
+  border: none;
+  background-color: transparent;
+}
+
+body {
+  color: white;
+}
+
+.container .row .col-md-4 .card {
+  top: 50px;
+  background-color: transparent;
+  border: none;
+}
+
+.container .row .col-md-4 .card .card-body .card-title {
+  font-size: 70px;
+}
+
+.container .row .col-md-3 .card {
+  top: 140px;
+  background-color: transparent;
+  border: none;
+  /* color: white; */
+}
+
+.container .row .col-md-2 .card {
+  top: 50px;
+  background-color: transparent;
+  border: none;
+}
